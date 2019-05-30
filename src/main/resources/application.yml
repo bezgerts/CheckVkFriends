@@ -1,0 +1,19 @@
+security:
+  oauth2:
+    client:
+      clientId: 5585015
+      clientSecret: Q5SUCeZNXF1JUdPkuOwP
+      accessTokenUri: https://oauth.vk.com/access_token
+      userAuthorizationUri: https://oauth.vk.com/authorize
+      tokenName: code
+      authenticationScheme: query
+      clientAuthenticationScheme: form
+      grant-type: authorization_code
+    resource:
+      userInfoUri: https://api.vk.com/method/users.get
+  basic:
+    enabled: false
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
