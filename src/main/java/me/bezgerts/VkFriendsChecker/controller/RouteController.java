@@ -10,4 +10,9 @@ public class RouteController {
     public String getIndexPage() {
         return "index";
     }
+
+    @RequestMapping("/asda")
+    public String getAsda() {
+        return "index";
+    }
 }

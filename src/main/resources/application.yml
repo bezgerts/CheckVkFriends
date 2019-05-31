@@ -11,9 +11,9 @@ security:
       grant-type: authorization_code
     resource:
       userInfoUri: https://api.vk.com/method/users.get
-  basic:
-    enabled: false
+#  basic:
+#    enabled: false
 
-spring:
-  main:
-    allow-bean-definition-overriding: true
+#spring:
+#  main:
+#    allow-bean-definition-overriding: true
